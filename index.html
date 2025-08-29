@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Chevere</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🎮 Trivia Chevere</h1>
+    <p>Responde y demuestra tu conocimiento</p>
+  </header>
+
+  <main>
+    <section id="juego">
+      <h2 id="pregunta"></h2>
+      <div id="opciones"></div>
+      <button id="siguiente" disabled>Siguiente ➡️</button>
+    </section>
+
+    <section id="resultado" class="oculto">
+      <h2>🎉 ¡Juego Terminado!</h2>
+      <p id="puntajeFinal"></p>
+      <button onclick="reiniciarJuego()">🔄 Jugar de nuevo</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Trivia Chevere</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
